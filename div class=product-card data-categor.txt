@@ -1,0 +1,19 @@
+<div class="product-card" data-category="mens"> <div class="product-gallery-box">
+        <button class="gallery-btn prev-btn" onclick="moveSlide(this, -1)">&#10095;</button>
+        <button class="gallery-btn next-btn" onclick="moveSlide(this, 1)">&#10094;</button>
+        
+        <div class="gallery-slides" data-current-index="0">
+            <img src="الساعة_الجديدة.jpg" alt="اسم الساعة الجديدة">
+        </div>
+    </div>
+    
+    <div class="product-details">
+        <div>
+            <h3 class="product-name">اسم الساعة الجديدة</h3>
+            <p class="product-desc">وصف قصير للساعة هنا (مثلاً: مقاومة للماء، جلد طبيعي).</p>
+        </div>
+        <div>
+            <div class="price-tag">200 ₪</div> <a href="#" target="_blank" class="order-btn">اطلب عبر الواتساب</a>
+        </div>
+    </div>
+</div>
